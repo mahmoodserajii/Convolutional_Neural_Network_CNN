@@ -24,10 +24,7 @@ The project is structured into the following logical steps:
 
     Data Loading: The MNIST dataset is loaded directly from Keras, providing 60,000 training images and 10,000 test images.
 
-    Preprocessing: Image pixel values are normalized to a range of 
-    0,1
-
-     and reshaped to the format required by the CNN model.
+    Preprocessing: Image pixel values are normalized to a range of [0, 1] and reshaped to the format required by the CNN model.
 
     Data Splitting: The training data is split into a smaller training set and a validation set for hyperparameter tuning and preventing overfitting.
 
